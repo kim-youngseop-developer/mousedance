@@ -10,10 +10,10 @@ The `mousedance` is written on below environment. <br>
 As not tested on other environments, <br>
 so we cannot guarantee the execution on other environment. <br>
 
-- OS: `Microsoft Windows 11 Home, 10.0.22621 N/A Build 22621`
-- Git: `Git, 2.36.0.windows.1`
-- Python: `Python, 3.11.0`
-- PIP: `PIP, 22.3 (python 3.11)`
+- **OS** `Microsoft Windows 11 Home, 10.0.22621 N/A Build 22621`
+- **Git** `Git, 2.36.0.windows.1`
+- **Python** `Python, 3.11.0`
+- **PIP** `PIP, 22.3 (python 3.11)`
 
 ## INSTALL
 ```
