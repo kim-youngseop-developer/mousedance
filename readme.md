@@ -5,16 +5,6 @@ We totally understand what you need. <br>
 Sometimes you juse want to have a great show by the famous mouse dancer. <br>
 How about a cup of coffee during the show? :) <br>
 
-## **ENVIRONMENT**
-The `mousedance` is written on below environment. <br>
-As not tested on other environments, <br>
-so we cannot guarantee the execution on other environment. <br>
-
-- **OS** `Microsoft Windows 11 Home, 10.0.22621 N/A Build 22621`
-- **Git** `Git, 2.36.0.windows.1`
-- **Python** `Python, 3.11.0`
-- **PIP** `PIP, 22.3 (python 3.11)`
-
 ## **INSTALL**
 ```
 :: move to directory where to clone.
@@ -33,9 +23,28 @@ pip install -r requirements.txt
 mousedance
 ```
 
+## **EXAMPLE**
+![example](https://github.com/kim-youngseop-developer/mousedance/blob/master/mousedance/example/example.png)
+
+---
+
+## **ENVIRONMENT**
+The `mousedance` is written on below environment. <br>
+As not tested on other environments, <br>
+so we cannot guarantee the execution on other environment. <br>
+
+- **OS** `Microsoft Windows 11 Home, 10.0.22621 N/A Build 22621`
+- **Git** `Git, 2.36.0.windows.1`
+- **Python** `Python, 3.11.0`
+- **PIP** `PIP, 22.3 (python 3.11)`
+
+## **BATCH FILE**
+```bat
+python mousedance\__main__.py -p "configuration.yaml"
+```
+
 ## **CONFIGURATION FILE**
 ```yaml
-
 # WARNING!
 # before editing the configuration file,
 # you should be aware of that
