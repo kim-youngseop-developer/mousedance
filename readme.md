@@ -5,7 +5,7 @@ We totally understand what you need. <br>
 Sometimes you juse want to have a great show by the famous mouse dancer. <br>
 How about a cup of coffee during the show? :) <br>
 
-## ENVIRONMENT
+## **ENVIRONMENT**
 The `mousedance` is written on below environment. <br>
 As not tested on other environments, <br>
 so we cannot guarantee the execution on other environment. <br>
@@ -15,7 +15,7 @@ so we cannot guarantee the execution on other environment. <br>
 - **Python** `Python, 3.11.0`
 - **PIP** `PIP, 22.3 (python 3.11)`
 
-## INSTALL
+## **INSTALL**
 ```
 :: move to directory where to clone.
 cd <path\to\clone>
@@ -33,7 +33,7 @@ pip install -r requirements.txt
 mousedance
 ```
 
-## CONFIGURATION FILE
+## **CONFIGURATION FILE**
 ```yaml
 
 # WARNING!
