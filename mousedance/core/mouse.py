@@ -29,7 +29,7 @@ class MovementFactory(Factory[Movement]):
 
 class Regular(Movement):
 
-    def simulate(self, point: Point, current_point: Point = None) -> None:
+    def simulate(self, point: Point, current_point: Point = None) -> Iterator[Point]:
         # set updatable point object.
         updatable_point = Point(x = None, y = None)
 

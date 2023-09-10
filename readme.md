@@ -1,4 +1,6 @@
 # MOUSE DANCE
+> **Author** kim, youngseop <br>
+> **Email Address** kim.youngseop.developer@gmail.com
 
 Hello, visitor! <br>
 We totally understand what you need. <br>
@@ -6,6 +8,7 @@ Sometimes you juse want to have a great show by the famous mouse dancer. <br>
 How about a cup of coffee during the show? :) <br>
 
 ## **INSTALL**
+
 ```
 :: move to directory where to clone.
 cd <path\to\clone>
@@ -23,12 +26,14 @@ pip install -r requirements.txt
 mousedance
 ```
 
-## **EXAMPLE**
 ![example](https://github.com/kim-youngseop-developer/mousedance/blob/master/example/example.png)
+
+<br>
 
 ---
 
 ## **ENVIRONMENT**
+
 The `mousedance` is written on below environment. <br>
 As not tested on other environments, <br>
 so we cannot guarantee the execution on other environment. <br>
@@ -39,11 +44,13 @@ so we cannot guarantee the execution on other environment. <br>
 - **PIP** `PIP, 22.3 (python 3.11)`
 
 ## **BATCH FILE**
+
 ```bat
 python mousedance\__main__.py -p "configuration.yaml"
 ```
 
 ## **CONFIGURATION FILE**
+
 ```yaml
 # WARNING!
 # before editing the configuration file,
