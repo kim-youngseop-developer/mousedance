@@ -24,7 +24,7 @@ mousedance
 ```
 
 ## **EXAMPLE**
-![example](https://github.com/kim-youngseop-developer/mousedance/blob/master/mousedance/example/example.png)
+![example](https://github.com/kim-youngseop-developer/mousedance/blob/master/example/example.png)
 
 ---
 
