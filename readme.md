@@ -42,7 +42,7 @@ mousedance
 ```
 
 the default configuration for the `repeat` is 10 times. <br>
-if you want to the never ending show, please edit the key with following information.
+if you want to watch the never ending show, please edit the key with following information.
 
 ```yaml
 # .\configuration.yaml
@@ -52,13 +52,15 @@ draw:
   repeat: 0 
 ```
 
-## **BATCH FILE**
+## **MORE INFORMATION**
+
+### **BATCH FILE**
 
 ```batch
 python mousedance\__main__.py -p "configuration.yaml"
 ```
 
-## **CONFIGURATION FILE**
+### **CONFIGURATION FILE**
 
 ```yaml
 # WARNING!
