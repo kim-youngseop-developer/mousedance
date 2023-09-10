@@ -42,8 +42,7 @@ mousedance
 ```
 
 the default configuration for the `repeat` is 10 times. <br>
-if you want to the never ending show, <br>
-please edit the key with following information.
+if you want to the never ending show, please edit the key with following information.
 
 ```yaml
 # .\configuration.yaml
@@ -52,12 +51,6 @@ please edit the key with following information.
 draw:
   repeat: 0 
 ```
-
-<br>
-
----
-
-<br>
 
 ## **BATCH FILE**
 
