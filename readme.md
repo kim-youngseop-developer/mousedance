@@ -1,15 +1,30 @@
 # MOUSE DANCE
-> **Author** kim, youngseop <br>
-> **Email Address** kim.youngseop.developer@gmail.com
+> **author** kim, youngseop <br>
+> **email address** kim.youngseop.developer@gmail.com
 
-Hello, visitor! <br>
-We totally understand what you need. <br>
-Sometimes you juse want to have a great show by the famous mouse dancer. <br>
-How about a cup of coffee during the show? :) <br>
+hello, visitor! <br>
+we totally understand what you need. <br>
+sometimes you juse want to have a great show by the famous mouse dancer. <br>
+how about a cup of coffee during the show? :) <br>
+
+![example](https://github.com/kim-youngseop-developer/mousedance/blob/master/example/example.png)
 
 ## **INSTALL**
 
-```
+before the installation, <br>
+
+the script `mousedance` is written on the below environment. <br>
+as only tested on the environment, we cannot guarantee the execution on other environment. <br>
+
+- **os** `Microsoft Windows 11 Home, 10.0.22621 N/A Build 22621`
+- **git** `Git, 2.36.0.windows.1`
+- **python** `Python, 3.11.0`
+- **pip** `PIP, 22.3 (python 3.11)`
+
+and for the comfortable installation, <br>
+we recommend to use `git` to clone the repository. <br>
+
+```batch
 :: move to directory where to clone.
 cd <path\to\clone>
 
@@ -26,26 +41,27 @@ pip install -r requirements.txt
 mousedance
 ```
 
-![example](https://github.com/kim-youngseop-developer/mousedance/blob/master/example/example.png)
+the default configuration for the `repeat` is 10 times. <br>
+if you want to the never ending show, <br>
+please edit the key with following information.
+
+```yaml
+# .\configuration.yaml
+# for never ending show, set `0` on the key `draw.repeat`.
+
+draw:
+  repeat: 0 
+```
 
 <br>
 
 ---
 
-## **ENVIRONMENT**
-
-The `mousedance` is written on below environment. <br>
-As not tested on other environments, <br>
-so we cannot guarantee the execution on other environment. <br>
-
-- **OS** `Microsoft Windows 11 Home, 10.0.22621 N/A Build 22621`
-- **Git** `Git, 2.36.0.windows.1`
-- **Python** `Python, 3.11.0`
-- **PIP** `PIP, 22.3 (python 3.11)`
+<br>
 
 ## **BATCH FILE**
 
-```bat
+```batch
 python mousedance\__main__.py -p "configuration.yaml"
 ```
 
